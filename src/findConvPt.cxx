@@ -45,8 +45,8 @@ int jobConvPt::run() {
 		d_backTrace.initGeo(raypara, baz, 'S', station);
 		d_backTrace.rayTrace();
 		d_backTrace.conversionPoint(&conversion);
+		std::cout << conversion.longitude << ' ' << conversion.latitude << "\n";
 	}
-	std::cout << conversion.longitude << ' ' << conversion.latitude << "\n";
 	return 0;
 }
 int jobConvPt::outHelpMessage() {

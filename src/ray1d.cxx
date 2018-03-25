@@ -24,6 +24,6 @@ int ray1d::conversionPoint(GeoPoint *convPt) {
 		pt.incre(it->getEW(), it->getNS() );
 	}
 	pt.km2deg();
-	pt.incre(d_stlo, d_stla);
+	pt.incre(d_station);
 	return 0;
 }

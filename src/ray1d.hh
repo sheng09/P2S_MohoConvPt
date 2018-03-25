@@ -70,7 +70,7 @@ public:
 	int rayTrace();
 	int conversionPoint(GeoPoint *convPt);
 private:
-	float d_stlo, d_stla;
+	//float d_stlo, d_stla;
 	GeoPoint d_station;
 	float d_raypara;  // s/km
 	float d_baz;      // Degree
